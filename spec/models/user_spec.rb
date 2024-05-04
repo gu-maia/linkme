@@ -2,6 +2,6 @@
 
 RSpec.describe 'User' do
   describe 'associations' do
-    #should have many links
+    # should have many links
   end
 end
