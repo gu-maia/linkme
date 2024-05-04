@@ -1,1 +1,29 @@
-Bem vindo ao linktree de <%= @profile_slug %>!
+<div class="mx-auto">
+  <div>
+    <img src="https://gustavomaia.com/assets/img/luigi.jpg" class="mx-auto h-24 w-24 border border-slate-400 rounded-full">
+    
+    <div class="font-bold mt-7 text-center">
+      @<%= @profile_slug %>
+    </div>
+    <div class="font-light text-center text-slate-400">
+      my profile description
+    </div>
+  </div>
+
+  <div class="flex flex-col w-[576px] text-center mt-7">
+    <% @links.each do |link| %>
+      <div class="flex items-center justify-between mt-5 p-2 border border-slate-400 rounded-full w-full">
+         <img src="https://gustavomaia.com/assets/img/luigi.jpg" class="h-12 w-12 border border-slate-400 rounded-full"></img>
+         <%= link_to link.title, link.url %>
+         <div>...</div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="flex items-center justify-evenly mt-12 p-2 mx-auto border border-slate-400 rounded-full h-12 w-52">
+     <div class="h-4 w-4 bg-black"></div>
+     <span>Create your linktree</span>
+  </div>
+</div>
+
+
