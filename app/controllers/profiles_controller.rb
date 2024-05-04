@@ -3,7 +3,9 @@
 class ProfilesController < ApplicationController
   before_action :set_profile_slug, :set_profile_owner
 
-  def show; end
+  def show
+    @links = @profile_owner.links
+  end
 
   def not_found; end
 
