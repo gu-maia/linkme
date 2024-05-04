@@ -1,24 +1,3 @@
-# README
+## A Linktr.ee / Allmylinks clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img width="881" alt="image" src="https://github.com/gu-maia/linkme/assets/19489884/a1e9bfd6-cc81-4412-b5d8-726870ad8180">
